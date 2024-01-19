@@ -519,7 +519,7 @@ body {
       border: 1.5px solid white;
       z-index: 11;
       scale: 3;
-      font-size:3px;      
+      font-size:2.5px;      
       }
     #namee{
       scale: 1.3;
@@ -566,7 +566,7 @@ body {
       border: 1.5px solid white;
       z-index: 11;
       scale: 3;
-      font-size:2.5px;
+      font-size:2.1px;
       backdrop-filter:blur(20px);
       }
     #namee{
@@ -621,7 +621,7 @@ body {
       border: 1.5px solid white;
       z-index: 11;
       scale: 3;
-      font-size:2px;
+      font-size:1.8px;
       backdrop-filter:blur(20px);
       }
     #namee{
