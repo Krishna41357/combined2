@@ -944,14 +944,48 @@ body {
   }
   
   .card__face--front h2 {
-    color: #FFF;
-    font-size: 32px;
-    font-family: 'Cinzel Decorative', serif;
+    display:none;
   }
   
   .card__face--back {
     background-color: var(--light);
     transform: rotateY(180deg);
+  }
+.card:nth-child(1) .card__face--front{
+    background: url(AuctionLeague.png);
+    background-size: cover;
+  }
+  .card:nth-child(2) .card__face--front{
+    background: url(codewars.png);
+    background-size: cover;
+  }
+  .card:nth-child(3) .card__face--front{
+    background: url(CtrlAICompose.png);
+    background-size: cover;
+  }
+  .card:nth-child(4) .card__face--front{
+    background: url(RoboSoccer.png);
+    background-size: cover;
+  }
+  .card:nth-child(5) .card__face--front{
+    background: url(TechRoast.png);
+    background-size: cover;
+  }
+  .card:nth-child(6) .card__face--front{
+    background: url(TechX.png);
+    background-size: cover;
+  }
+  .card:nth-child(7) .card__face--front{
+    background: url(MockParliament.png);
+    background-size: cover;
+  }
+  .card:nth-child(8) .card__face--front{
+    background: url(SharkTank.png);
+    background-size: cover;
+  }
+  .card:nth-child(9) .card__face--front{
+    background: url(portfolioExpo.png);
+    background-size: cover;
   }
   
   .card__content {
@@ -977,6 +1011,82 @@ body {
     background: rgba(25, 83, 164, 0.811);
     z-index: -1;
     border-radius: 0px 0px 50% 0px;
+  }
+.card:nth-child(1) .card__header:after{
+    background: #a90808;
+  }
+  .card:nth-child(5) .card__header:after{
+    background: #a90808;
+  }
+  .card:nth-child(2) .card__header:after{
+    background: #02572d;
+  }
+  .card:nth-child(6) .card__header:after{
+    background: #02572d;
+  }
+
+  .card:nth-child(3) .card__header:after{
+    background: #f08f1f;
+  }
+  .card:nth-child(7) .card__header:after{
+    background: #f08f1f;
+  }
+  .card:nth-child(9) .card__header:after{
+    background: #f08f1f;
+  }
+
+  .card:nth-child(4) .card__header:after{
+    background: #172f51;
+  }
+  .card:nth-child(8) .card__header:after{
+    background: #172f51;
+  }
+
+
+.card:nth-child(1) button:hover {
+    background: #a90808;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(2) button:hover {
+    background: #02572d;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(3) button:hover {
+    background: #F08F1F;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(4) button:hover {
+    background: #172F51;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(5) button:hover {
+    background: #a90808;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(6) button:hover {
+    background: #02572d;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(7) button:hover {
+    background: #F08F1F;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(8) button:hover {
+    background: #172F51;
+    color: var(--light);
+    cursor:pointer;
+  }
+  .card:nth-child(9) button:hover {
+    background: #F08F1F;
+    color: var(--light);
+    cursor:pointer;
   }
   
   .pp {
